@@ -22,8 +22,8 @@ module.exports = {
   rules: {
     "no-console": 0,
     "indent": [ 2, 2 ],
-    "max-len": [ 2, 80, 4 ],
-    "no-multiple-empty-lines": [ 2, { "max": 1 } ],
+    "max-len": [ 1, 80, 4 ],
+    "no-multiple-empty-lines": [ 2, { "max": 2 } ],
     "quotes": [ 2, "double" ],
     "semi": [ 2, "never" ],
     "comma-dangle": [ 2, "always-multiline" ],
